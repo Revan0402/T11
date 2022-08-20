@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    float: left;
+}
+.red{
+    width: 260px;
+    height: 260px;
+    background: #EA001B;
+    float: left;   
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    border-radius: 100%;
+}
+.yellow{
+    width: 260px;
+    height: 260px;
+    background: #F79706;
+    position: absolute;
+    left: 200px;
+    top: 30px;
+    opacity: 0.9;
+    float: left;
+    border-radius: 100%;
+}
+.title{
+    width: 300px;
+    position: relative;
+    top: 285px;
+    left: 45px;
+}
+.text{
+    font-family: "Segoe UI Semibold";
+    font-size: 78px;
+}
